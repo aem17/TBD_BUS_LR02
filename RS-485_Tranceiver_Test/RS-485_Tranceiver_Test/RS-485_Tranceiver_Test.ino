@@ -1,3 +1,7 @@
+// Licensed under
+// D E E Z  N U T S
+
+
 // TODO:
 // - how to approach initialisation
 // - define message structure
