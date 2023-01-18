@@ -61,7 +61,7 @@ void loop() {
   if(rs485_interface.new_message_flag &&
      rs485_interface.read_msg_buffer[1] == RS485_ID)  
   {
-    for(int i=3; i<9; i++)
+    for(int i=3; i<11; i++)
     {
       Serial.print((char) rs485_interface.read_msg_buffer[i]);           
     }        
@@ -175,5 +175,3 @@ int init_rs485bus(RS485_Device *rs485_dev, int dev_id, int tx_en, int rx_en)
   Serial.println("Initialised");
  
 }
-
-
